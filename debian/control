@@ -1,0 +1,12 @@
+Source: ros-turbulent-ros2msg
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, ros-turbulent-ament-copyright, ros-turbulent-ament-flake8, ros-turbulent-ament-pep257, ros-turbulent-ament-xmllint, ros-turbulent-ros-testing, ros-turbulent-ros2cli, ros-turbulent-std-msgs, ros-turbulent-std-srvs, ros-turbulent-ros-workspace, python3-all, python3-setuptools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-ros2msg
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-turbulent-ament-index-python, ros-turbulent-ros2cli, ros-turbulent-ros-workspace
+Description: The msg command for ROS 2 command line tools.
