@@ -1,0 +1,12 @@
+Source: ros-turbulent-ros2doctor
+Section: misc
+Priority: extra
+Maintainer: Claire Wang <clairewang@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, ros-turbulent-ament-copyright, ros-turbulent-ament-flake8, ros-turbulent-ament-pep257, ros-turbulent-ament-xmllint, ros-turbulent-ros2cli, ros-turbulent-ros-workspace, python3-all, python3-setuptools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-ros2doctor
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-ifcfg, python3-rosdistro-modules, ros-turbulent-ros2cli, ros-turbulent-ros-workspace
+Description: A command line tool to check potential issues in a ROS 2 system
