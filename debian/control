@@ -1,0 +1,12 @@
+Source: ros-turbulent-ros2cli
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, ros-turbulent-ament-copyright, ros-turbulent-ament-flake8, ros-turbulent-ament-pep257, ros-turbulent-ament-xmllint, ros-turbulent-ros-workspace, python3-all, python3-setuptools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-ros2cli
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-netifaces, python3-pkg-resources, ros-turbulent-rclpy, ros-turbulent-ros-workspace
+Description: Framework for ROS 2 command line tools.
