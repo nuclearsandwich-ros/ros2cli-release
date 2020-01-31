@@ -1,0 +1,12 @@
+Source: ros-turbulent-ros2service
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, ros-turbulent-ament-copyright, ros-turbulent-ament-flake8, ros-turbulent-ament-pep257, ros-turbulent-ament-xmllint, ros-turbulent-rclpy, ros-turbulent-ros-testing, ros-turbulent-ros2cli, ros-turbulent-test-msgs, ros-turbulent-ros-workspace, python3-all, python3-setuptools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-ros2service
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-yaml, ros-turbulent-rclpy, ros-turbulent-ros2cli, ros-turbulent-rosidl-runtime-py, ros-turbulent-ros-workspace
+Description: The service command for ROS 2 command line tools.
