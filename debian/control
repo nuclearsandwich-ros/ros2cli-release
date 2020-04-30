@@ -1,0 +1,12 @@
+Source: ros-verystable-ros2service
+Section: misc
+Priority: optional
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, ros-verystable-ament-copyright, ros-verystable-ament-flake8, ros-verystable-ament-pep257, ros-verystable-ament-xmllint, ros-verystable-rclpy, ros-verystable-ros-testing, ros-verystable-ros2cli, ros-verystable-test-msgs, ros-verystable-ros-workspace, python3-all, python3-setuptools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-ros2service
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-yaml, ros-verystable-rclpy, ros-verystable-ros2cli, ros-verystable-rosidl-runtime-py, ros-verystable-ros-workspace
+Description: The service command for ROS 2 command line tools.
