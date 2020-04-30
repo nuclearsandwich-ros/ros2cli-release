@@ -1,1 +1,1 @@
-{"trim": "", "base": "9f81e30a", "trimbase": "", "parent": "debian/eloquent/ros2service", "previous": "3f536cc3"}
+{"base": "7e6785fd", "parent": "debian/verystable/ros2service", "previous": "2c0287f3", "trim": "", "trimbase": ""}
