@@ -1,0 +1,12 @@
+Source: ros-verystable-ros2lifecycle-test-fixtures
+Section: misc
+Priority: optional
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-rclcpp, ros-verystable-rclcpp-lifecycle, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-ros2lifecycle-test-fixtures
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-rclcpp, ros-verystable-rclcpp-lifecycle, ros-verystable-ros-workspace
+Description: Package containing fixture nodes for ros2lifecycle tests
