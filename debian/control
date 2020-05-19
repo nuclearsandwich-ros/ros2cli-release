@@ -1,0 +1,12 @@
+Source: ros-testing-ros2interface
+Section: misc
+Priority: optional
+Maintainer: Jacob Perron <jacob@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, ros-testing-ament-copyright, ros-testing-ament-flake8, ros-testing-ament-pep257, ros-testing-ament-xmllint, ros-testing-ros-testing, ros-testing-ros2cli, ros-testing-std-msgs, ros-testing-std-srvs, ros-testing-test-msgs, ros-testing-ros-workspace, python3-all, python3-setuptools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-ros2interface
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-testing-ament-index-python, ros-testing-ros2cli, ros-testing-rosidl-runtime-py, ros-testing-ros-workspace
+Description: The interface command for ROS 2 command line tools
