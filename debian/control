@@ -1,0 +1,12 @@
+Source: ros-testing-ros2lifecycle-test-fixtures
+Section: misc
+Priority: optional
+Maintainer: Michel Hidalgo <michel@ekumenlabs.com>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-rclcpp, ros-testing-rclcpp-lifecycle, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-ros2lifecycle-test-fixtures
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-rclcpp, ros-testing-rclcpp-lifecycle, ros-testing-ros-workspace
+Description: Package containing fixture nodes for ros2lifecycle tests
