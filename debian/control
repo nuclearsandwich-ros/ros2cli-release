@@ -1,0 +1,12 @@
+Source: ros-testing-ros2doctor
+Section: misc
+Priority: optional
+Maintainer: Claire Wang <clairewang@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, ros-testing-ament-copyright, ros-testing-ament-flake8, ros-testing-ament-pep257, ros-testing-ament-xmllint, ros-testing-ros-testing, ros-testing-ros2cli, ros-testing-std-msgs, ros-testing-ros-workspace, python3-all, python3-setuptools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-ros2doctor
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-catkin-pkg-modules, python3-ifcfg, python3-rosdistro-modules, ros-testing-ament-index-python, ros-testing-rclpy, ros-testing-ros2cli, ros-testing-ros-workspace
+Description: A command line tool to check potential issues in a ROS 2 system
