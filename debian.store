@@ -1,1 +1,1 @@
-{"trim": "", "base": "07ecd02e", "trimbase": "", "parent": "debian/foxy/ros2lifecycle", "previous": "85943d2d"}
+{"base": "dc444f6c", "parent": "debian/testing/ros2lifecycle", "previous": "5507b3ce", "trim": "", "trimbase": ""}
