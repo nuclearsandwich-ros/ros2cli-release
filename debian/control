@@ -1,0 +1,12 @@
+Source: ros-testing-ros2node
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, ros-testing-ament-copyright, ros-testing-ament-flake8, ros-testing-ament-pep257, ros-testing-ament-xmllint, ros-testing-rclpy, ros-testing-ros-testing, ros-testing-ros2cli, ros-testing-test-msgs, ros-testing-ros-workspace, python3-all, python3-setuptools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-ros2node
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-testing-ros2cli, ros-testing-ros-workspace
+Description: The node command for ROS 2 command line tools.
