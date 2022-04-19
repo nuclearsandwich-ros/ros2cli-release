@@ -1,1 +1,1 @@
-{"base": "7b44e343", "parent": "debian/rolling/ros2pkg", "previous": "9828ea48", "trim": "", "trimbase": ""}
+{"base": "6654689a", "parent": "debian/humble/ros2pkg", "previous": "856cf3e9", "trim": "", "trimbase": ""}
